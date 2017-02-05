@@ -1,0 +1,3779 @@
+<gconfschemafile>
+  <schemalist>
+    <schema>
+      <key>/schemas/apps/firestarter/client/first_run</key>
+      <applyto>/apps/firestarter/client/first_run</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Is it the first time the user is running the program</short>
+        <long>The first time Firestarter starts several special actions are taken.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>L&apos;usuari executa el programa per primera vegada</short>
+        <long>El primer cop que s&apos;inicia el Firestarter es realitzen una sèrie d&apos;accions especials.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Je to poprvé, kdy uživatel spouští tento program</short>
+        <long>Když Firestarter startuje poprvé, je vykonáno několik speciálních akcí.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Wird das Programm zum ersten Mal durch den Benutzer gestartet?</short>
+        <long>Bei der ersten Ausführung von Firestarter müssen einige besondere Vorkehrungen getroffen werden.</long>
+      </locale>
+
+      <locale name="el">
+        
+        <long>Την πρώτη φορά που ξεκινάει ο Firestarter λαμβάνονται ορισμένες ειδικές ενέργειες.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Is it the first time the user is running the program</short>
+        <long>The first time Firestarter starts several special actions are taken.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Is it the first time the user is running the program</short>
+        <long>The first time Firestarter starts several special actions are taken.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Es la primera vez que el usuario ejecuta este programa</short>
+        <long>La primera vez que Firestarter se inicia toman lugar varias acciones.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>C&apos;est la première fois que l&apos;utilisateur lance le programme</short>
+        <long>La première fois que Firestarter se lance, plusieurs opérations sont effectuées.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A felhasználó először futtatja-e a programot?</short>
+        <long>A Firestarter első indításakor számos különleges művelet hajtódik végre.</long>
+      </locale>
+
+      <locale name="it">
+        
+        <long>Alla prima esecuzione, Firestarter eseguirà diverse azioni speciali.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>Firestarter を初めて起動したかどうか</short>
+        <long>初めて Firestarter を起動したらいくつかの特別な操作を行います。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Start de gebruiker het programma voor de eerste keer</short>
+        <long>De eerste keer dat Firestarter wordt gestart, worden een aantal bijzondere opdrachten uitgevoerd.</long>
+      </locale>
+
+      <locale name="pa">
+        
+        <long>ਪਹਿਲੀ ਵਾਰ ਫਾਇਰਸਟਾਰਟਰ ਸ਼ੁਰੂ ਹੋਣ ਸਮੇਂ ਕੁਝ ਖਾਸ ਕ੍ਰਿਆਂਵਾਂ ਕੀਤੀਆਂ ਗਈਆਂ।</long>
+      </locale>
+
+      <locale name="pl">
+        
+        <long>Podczas uruchamiania programu Firestarter po raz pierwszy, zostanie podjętych kilka specjalnych czynności.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>É a primeira vez que o utilizador está a executar a aplicação</short>
+        <long>Ao iniciar o Firestarter pela primeira vez, são tomadas várias acções especiais.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Essa é a primeira vez que o usuário está executando o programa</short>
+        <long>A primeira vez que o Firestarter é iniciado são tomadas várias ações especiais.</long>
+      </locale>
+
+      <locale name="sk">
+        
+        <long>Pri prvom spustení Firestarter sa vykoná niekoľko špeciálnych akcií.</long>
+      </locale>
+
+      <locale name="sr">
+        
+        <long>Када се Паликућа први пут покрене, изврши се неколико посебних наредби.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        
+        <long>Kada se Palikuća prvi put pokrene, izvrši se nekoliko posebnih naredbi.</long>
+      </locale>
+
+      <locale name="sv">
+        
+        <long>Första gången Firestarter startas vidtas flera speciella åtgärder.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Kullanıcı programı ilk kez mi çalıştırıyor</short>
+        <long>İlk olarak Firestarter&apos;ın özel eylemler olarak ele aldıkları başlar.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Đây có phải là lần đầu tiên người dùng chạy chương trình</short>
+        <long>Lần đầu tiên chạy Firestarter, một vài hành động được thực thi.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/start_firewall_on_boot</key>
+      <applyto>/apps/firestarter/client/start_firewall_on_boot</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Start the firewall when the system boots</short>
+        <long>Start the firewall when the system boots.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inicia el tallafoc quan el sistema arrenca</short>
+        <long>Inicia el tallafoc quan el sistema arrenca.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Spustit firewall při spouštění systému</short>
+        <long>Spustit firewall při spouštění systému.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Firewall beim Systemstart aktivieren</short>
+        <long>Die Firewall beim Systemstart aktivieren.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Start the firewall when the system boots</short>
+        <long>Start the firewall when the system boots.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Start the firewall when the system boots</short>
+        <long>Start the firewall when the system boots.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Iniciar el cortafuegos cuando el programa arranca</short>
+        <long>Iniciar el cortafuegos cuando el sistema arranca.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Lancer le pare-feu au démarrage du système</short>
+        <long>Lancer le pare-feu au démarrage du système.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A tűzfal a rendszer indításakor induljon el</short>
+        <long>A tűzfal a rendszer indításakor induljon el.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>システムを起動したらファイヤーウォールを起動する</short>
+        <long>システムを立ち上げたらファイヤーウォールを起動します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De firewall starten wanneer de computer start</short>
+        <long>De firewall starten wanneer de computer start.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Iniciar o firewall ao iniciar o sistema</short>
+        <long>Iniciar o firewall ao iniciar o sistema.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Güvenlik duvarını sistem açılışında başlat</short>
+        <long>Bunu seçerseniz, sistem açılışında güvenlik duvarı başlatılacaktır.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Chạy tường lửa khi khởi động hệ thống</short>
+        <long>Chạy tường lửa khi khởi động hệ thống.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>系统启动时启动防火墙</short>
+        <long>系统启动时启动防火墙。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/start_firewall_on_gui</key>
+      <applyto>/apps/firestarter/client/start_firewall_on_gui</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Start the firewall when the program loads</short>
+        <long>Start the firewall when the program loads.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inicia el tallafoc en engegar el programa</short>
+        <long>Inicia el tallafoc en engegar el programa.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Spustit firewall, když se spouští program</short>
+        <long>Spustit firewall, když se spouští program.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Firewall beim Programmstart starten</short>
+        <long>Die Firewall starten wenn das Programm geladen wird.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Έναρξη του firewall κατά την φόρτωση του προγράμματος</short>
+        <long>Έναρξη του firewall κατά την φόρτωση του προγράμματος.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Start the firewall when the program loads</short>
+        <long>Start the firewall when the program loads.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Start the firewall when the program loads</short>
+        <long>Start the firewall when the program loads.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Iniciar el cortafuegos cuando el programa se cargue</short>
+        <long>Iniciar el cortafuegos cada vez que el programa se cargue.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Lancer le pare-feu au démarrage du programme</short>
+        <long>Lancer le pare-feu au démarrage du programme.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A tűzfal a Firestarter indításakor induljon el</short>
+        <long>Jelölje be ezt, és a tűzfal a Firestarter minden indításakor elindul.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Attiva il firewall all&apos;avvio del programma</short>
+        <long>Attiva il firewall all&apos;avvio del programma.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>プログラム起動時にファイヤーウォールを起動する</short>
+        <long>プログラム起動時にファイヤーウォールを起動します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De firewall starten wanneer het programma start.</short>
+        <long>De firewall starten wanneer het programma start.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਜਦੋਂ ਕਾਰਜ ਸਥਾਪਿਤ ਹੁੰਦਾ ਹੈ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ।</short>
+        <long>ਜਦੋਂ ਕਾਰਜ ਸਥਾਪਿਤ ਹੁੰਦਾ ਹੈ ਫਾਇਰਵਾਲ ਸ਼ੁਰੂ ਕਰੋ ੤</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Uruchomienie zapory sieciowej podczas ładowania programu</short>
+        <long>Uruchamia zaporę sieciową podczas ładowania programu.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Iniciar a firewall ao arrancar a aplicação</short>
+        <long>Iniciar a firewall ao arrancar a aplicação.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Iniciar o firewall ao carregar o programa</short>
+        <long>Iniciar o firewall ao carregar o programa.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Запускать межсетевой экран при запуске программы.</short>
+        <long>Запускать межсетевой экран при запуске программы.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Spustiť firewall pri štarte programu</short>
+        <long>Spustiť firewall pri štarte programu.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Покрени фајервол када се програм учита</short>
+        <long>Покрени фајервол када се програм учита.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Pokreni fajervol kada se program učita</short>
+        <long>Pokreni fajervol kada se program učita.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Starta brandväggen när programmet startar</short>
+        <long>Starta brandväggen när programmet startar</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Program yüklendiğinde güvenlik duvarını başlat</short>
+        <long>Bunu seçerseniz, program yüklendiğinde güvenlik duvarı başlatılacaktır.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Chạy tường lửa khi nạp chương trình</short>
+        <long>Chạy tường lửa khi nạp chương trình.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>程序装入时启动防火墙</short>
+        <long>程序装入时启动防火墙。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>程式啟動時會啟動防火牆</short>
+        <long>程式啟動時會啟動防火牆</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/start_firewall_on_dial_out</key>
+      <applyto>/apps/firestarter/client/start_firewall_on_dial_out</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Start the firewall when the system dials out</short>
+        <long>Start the firewall when the system establishes a PPP connection.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inicia el tallafoc quan el sistema es connecta</short>
+        <long>Inicia el tallafoc quan el sistema estableix una connexió PPP.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Spustit firewall, když systém volá ven</short>
+        <long>Spustit firewall, když systém naváže spojení PPP.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Firewall starten, wenn das System nach draussen wählt.</short>
+        <long>Firewall starten, wenn das System eine PPP Verbindung aufbaut.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Start the firewall when the system dials out</short>
+        <long>Start the firewall when the system establishes a PPP connection.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Start the firewall when the system dials out</short>
+        <long>Start the firewall when the system establishes a PPP connection.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Iniciar el cortafuegos cuando se marca una conexión telefónica al exterior</short>
+        <long>Iniciar el cortafuegos cuando el sistema establece una conexión PPP.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Lancer le pare-feu quand le système se connecte par modem</short>
+        <long>Lancer le pare-feu quand le système établit une connexion PPP.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Tűzfal indítása betárcsázáskor</short>
+        <long>A tűzfal elindítása PPP kapcsolat kialakításakor.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ダイアル接続が完了したらファイヤーウォールを起動する</short>
+        <long>システムが PPP 接続を確立したときにファイヤーウォールを起動します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De firewall starten bij het inbellen</short>
+        <long>De firewall starten wanneer een PPP verbinding wordt opgezet.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Iniciar o firewall quando o sitema discar para fora</short>
+        <long>Iniciar o firewall quando o sitema estabelecer uma conexão PPP.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Çevirmeli ağa bağlanırken güvenlik duvarını başlat</short>
+        <long>Bunu seçerseniz, PPP bağlantısı sağlandığında güvenlik duvarı başlatılacaktır.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Chạy tường lửa khi quay số ra ngoài</short>
+        <long>Chạy tường lửa khi hệ thống thiết lập một kết nối PPP.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>系统拨出时启动防火墙</short>
+        <long>系统建立 PPP 连接时启动防火墙。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/start_firewall_on_dhcp</key>
+      <applyto>/apps/firestarter/client/start_firewall_on_dhcp</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Start the firewall on a DHCP lease renewal</short>
+        <long>Start the firewall when the system receives a new DHCP lease.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Inicia el tallafoc quan es renova el prèstec DHCP</short>
+        <long>Inicia el tallafoc quan el sistema rep un prèstec de DHCP.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Spustit firewall při obnovení přidělení DHCP</short>
+        <long>Spustit firewall, když systém přijme nové přidělení DHCP.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Firewall starten, wenn eine DHCP-Lease erneuert wird.</short>
+        <long>Firewall starten, wenn das System eine neue DHCP-Lease erhält.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Start the firewall on a DHCP lease renewal</short>
+        <long>Start the firewall when the system receives a new DHCP lease.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Start the firewall on a DHCP lease renewal</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>Iniciar el cortafuegos al renovar una cesión DHCP</short>
+        <long>Iniciar el cortafuegos cuando el sistema recibe una cesión DHCP nueva.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Lancer le pare-feu sur une nouvelle adresse DHCP</short>
+        <long>Lancer le pare-feu quand le système reçoit une nouvelle adresse par DHCP.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Tűzfal indítása a DHCP bérlés megújításakor</short>
+        <long>A tűzfal indítása, ha a rendszer új DHCP bérlést fogad.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>DHCP の貸し出しを更新したらファイヤーウォールを起動する</short>
+        <long>DHCP から新しい IP の貸し出しを受け取った時点でファイヤーウォールを起動します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De firewall starten bij het verkrijgen van een nieuw DHCP adres</short>
+        
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Iniciar o firewall em renovações requisições DHCP</short>
+        
+      </locale>
+
+      <locale name="tr">
+        <short>DHCP ile IP ataması yenilenirken güvenlik duvarını başlat</short>
+        
+      </locale>
+
+      <locale name="vi">
+        <short>Chạy tường lửa khi làm mới dịch vụ DHCP</short>
+        <long>Chạy tường lửa khi hệ thống nhận được một dịch vụ DHCP mới.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/enable_tray_icon</key>
+      <applyto>/apps/firestarter/client/enable_tray_icon</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Enable tray icon</short>
+        <long>Show the Firestarter icon in the notification area.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Habilita la icona de la safata</short>
+        <long>Mostra la icona del Firestarter en l&apos;àrea de notificació.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Povolit ikonu v oznamovací oblasti</short>
+        <long>Zobrazovat ikonu Firestarteru v oznamovací oblasti.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Symbol im Benachrichtungsfeld aktivieren</short>
+        <long>Anzeige des Firestarter-Symbols im Benachrichtigungsfeld.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Enable tray icon</short>
+        <long>Show the Firestarter icon in the notification area.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable tray icon</short>
+        <long>Show the Firestarter icon in the notification area.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar icono en el área de notificación</short>
+        <long>Muestra el icono de Firestarter en el área de notificación.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Activer l&apos;icône dans la barre des tâches</short>
+        <long>Afficher l&apos;icône de Firestarter dans l&apos;aire de notification.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Tálcaikon bekapcsolása</short>
+        <long>A Firestarter ikon mutatása a figyelmeztető területen.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>トレイ・アイコンを有効にする</short>
+        <long>パネル通知エリアに Firestarter のアイコンを表示します。</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Aktiver ikon for systemtrauet</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Mededelingen gebied gebruiken</short>
+        <long>Het Firestarter pictogram tonen in het mededelignen gebied.</long>
+      </locale>
+
+      <locale name="no">
+        <short>Aktiver ikon for systemtrauet</short>
+        
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilitar ícone na bandeja</short>
+        <long>Mostrar o ícone do Firestarter na área de notificação.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Uyarı alanı imgeciğini etkinleştir</short>
+        <long>Uyarı alanında Firestarter imgeciğini göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Sử dụng biểu tượng khay</short>
+        <long>Hiển thị biểu tượng Firestarter trong vùng thông báo.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>启用托盘图标</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/minimize_to_tray</key>
+      <applyto>/apps/firestarter/client/minimize_to_tray</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Minimize to tray</short>
+        <long>When closing the program window, instead of exiting, hide the window.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Minimitza a la safata</short>
+        <long>En tancar la finestra del programa, amaga-la en comptes de sortir.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Minimalizovat do oznamovací oblasti</short>
+        <long>Při zavření okna programu skrýt okno místo ukončení.</long>
+      </locale>
+
+      <locale name="de">
+        <short>In das Benachrichtigungsfeld minimieren</short>
+        <long>Beim Schließen des Anwendungsfensters das Fenster nur ausblenden, anstatt die Anwendung zu beenden.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Minimize to tray</short>
+        <long>When closing the program window, hide the window instead of exiting.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Minimize to tray</short>
+        <long>When closing the program window, instead of exiting, hide the window.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Minimizar al área de notificación</short>
+        <long>Cuando se cierre la ventana del programa,  en vez de salir, ocultar la ventana.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Minimiser dans la barre des tâches</short>
+        <long>Lors de la fermeture de la fenêtre du programme, cacher la fenêtre au lieu de quitter.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Minimalizálás a tálcára</short>
+        <long>A program ablakának bezárásakor kilépés helyett az ablak elrejtése.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>トレイに最小化する</short>
+        <long>メイン・ウィンドウを閉じたらプログラムを終了するのではなく、ウィンドウを隠します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Minimaliseren naar het mededelingen gebied</short>
+        <long>Het programma minimaliseren wanneer het venster wordt gesloten in plaats van afsluiten.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Minimizar na bandeja</short>
+        <long>Ao fechar a janela do programa, ela é escondida em vez de se fechar</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Uyarı alanına küçült</short>
+        <long>Programı kapatırken, çıkmak yerine sadece pencereyi gizle.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Thu nhỏ vào khay</short>
+        <long>Khi đóng cửa sổ chương trình, thay vì thoát ra, sẽ ẩn cửa sổ.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>最小化到托盘</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/system_log</key>
+      <applyto>/apps/firestarter/client/system_log</applyto>
+      <owner>Firestarter</owner>
+      <type>string</type>
+      <default>/var/log/messages</default>
+      <locale name="C">
+        <short>The system log file</short>
+        <long>The location of the file the system logging daemon writes to.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Fitxer del registre del sistema</short>
+        <long>La ubicació de l&apos;arxiu on escriu el dimoni de monitorització del sistema.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Soubor systémového záznamu</short>
+        <long>Umístění souboru, do kterého zapisuje systémový zaznamenávací démon.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Systemlog Datei</short>
+        <long>Die Adresse der Datei, in die der Systemprotokoll-Daemon schreibt.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Το αρχείο καταγραφής συστήματος</short>
+        <long>Η τοποθεσία του αρχείου στο οποίο ο daemon καταγραφής συστήματος γράφει.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>The system log file</short>
+        <long>The location of the file the system logging daemon writes to.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>The system log file</short>
+        <long>The location of the file the system logging daemon writes to.</long>
+      </locale>
+
+      <locale name="es">
+        <short>El archivo de informes del sistema</short>
+        <long>La ubicación del archivo donde el demonio de registro del sistema escribe.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Le fichier du journal système</short>
+        <long>L&apos;emplacement du fichier dans lequel le démon de journalisation écrit.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A syslog naplófájl</short>
+        <long>Azon fájl helye, ahová a rendszernaplózó (syslog) démon ír.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Il file di log del sistema</short>
+        <long>La posizione del file in cui vengono scritti i messaggi dal demone di logging di sistema.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>システム・ログ・ファイル</short>
+        <long>システムをログするデーモンが書き込むファイルの格納場所です。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Firewall systeem logbestand</short>
+        <long>De plaats van het bestand waar de systeem-logger naar schrijft.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਸਿਸਟਮ ਰੋਜ਼ਨਾਮਚਾ ਫਾਈਲ</short>
+        <long>ਸਿਸਟਮ ਰੋਜ਼ਨਾਮਚਾ ਡੈਮਨ ਦੁਆਰਾ ਲਿਖੀ ਹੋਈ ਫਾਈਲ ਦੀ ਸਥਿਤੀ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Systemowy plik dziennika zdarzeń</short>
+        <long>Położenie pliku, do którego zapisuje systemowy demon logowania zdarzeń.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>O ficheiro de registo do sistema</short>
+        <long>A localização do ficheiro para onde escreve o daemon de registo do sistema.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>O arquivo de registro do sistema</short>
+        <long>A localização do arquivo onde o servidor de registro do sistema grava.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Файл системного журнала</short>
+        
+      </locale>
+
+      <locale name="sk">
+        <short>Súbor so záznamom systému</short>
+        <long>Umiestnenie súboru, kam zapisuje záznam syslog.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>File log i sistemit</short>
+        
+      </locale>
+
+      <locale name="sr">
+        <short>Фајл о дешавањима на систему</short>
+        <long>Локација фајла у који пише пратилац рада система.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Fajl o dešavanjima na sistemu</short>
+        <long>Lokacija fajla u koji piše pratilac rada sistema.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Systemloggfilen</short>
+        <long>Platsen för den fil som systemloggningsdemonen skriver till.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Sistem günlük dosyası</short>
+        <long>Sistem günlük süreçlerini konuma yazar.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Tập tin bản ghi hệ thống</short>
+        <long>Vị trí tập tin mà daemon bản ghi hệ thống ghi vào.</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>系統紀錄檔</short>
+        
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/policy_auto_apply</key>
+      <applyto>/apps/firestarter/client/policy_auto_apply</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Policy auto apply</short>
+        <long>Apply changes made to policy immediately, the alternative is for the user to confirm the changes in advance.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Aplica automàticament les polítiques</short>
+        <long>Aplica inmeditament les canvis fets a les polítiques. En cas contrari, l&apos;usuari les confirma més endavant.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Automatické provádění strategií</short>
+        <long>Provádět změny strategie okamžitě, druhá možnost je, že uživatel změny napřed potvrdí.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Autom. Anwendung von Richtlinien</short>
+        <long>Änderungen an einer Richtlinie sofort anwenden. Die Alternative dazu ist die vorherige Bestätigung der Änderungen durch den Benutzer.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Policy auto apply</short>
+        <long>Apply changes made to policy immediately; the alternative is for the user to confirm the changes in advance.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Policy auto apply</short>
+        <long>Apply changes made to policy immediately, the alternative is for the user to confirm the changes in advance.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Auto-aplicar normativas</short>
+        <long>Aplicar los cambios hechos a la normativa inmediatamente, la alternativa es para el usuario, confirmar los cambios en adelante.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Appliquer automatiquement la politique</short>
+        <long>Appliquer immédiatement les changements faits à la politique, l&apos;utilisateur pouvant choisir de confirmer les changements à l&apos;avance.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Szabályok automatikus alkalmazása</short>
+        <long>A szabályokban hozott változtatások azonnali alkalmazása, a felhasználó alternatívaként választhatja, hogy lépésenként erősíti meg a változtatásokat.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>自動的に適用するポリシー</short>
+        <long>TRUE にすると、今すぐ変更点をポリシーに反映し、それ以外は前もってユーザに確認します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Automatisch het beleid gebruiken</short>
+        <long>Beleidswizijgingen direct gebruiken. Het alternatief is de gebruiker alle wijzigingen te laten bevestigen.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Auto-aplicar política</short>
+        <long>Aplicar imediatamente alterações feitas na política. A alternativa é que o usuário confirme antecipadamente as alterações.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Kuralı kendiliğinden uygula</short>
+        <long>Kurallarda yapılan değişiklikleri anında uygula, kullanıcının daha sonra onaylamasını bekleme.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Chính sách tự động áp dụng</short>
+        <long>Áp dụng thay đổi trong chính sách ngay lập tức, một cách khác là cho phép người dùng xác nhận thay đổi theo ý muốn.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>自动应用策略</short>
+        
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/firestarter/client/filter/redundant</key>
+      <applyto>/apps/firestarter/client/filter/redundant</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Filter out redundant hits</short>
+        <long>Filter out sequences of identical hits.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Filtra peticions redundants</short>
+        <long>Filtra seqüències de peticions iguals.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Odfiltrovat redundantní zásahy</short>
+        <long>Odfiltrovat sekvence identických zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Identische Treffer ausfiltern</short>
+        <long>Sequenzen von identischen Treffern herausfiltern.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Φιλτράρισμα πλεονάζοντων επισκέψεων</short>
+        <long>Φιλτράρισμα σειρών ομοίων επισκέψεων</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Filter out redundant hits</short>
+        <long>Filter out sequences of identical hits.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Filter out redundant hits</short>
+        <long>Filter out sequences of identical hits.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Filtrar accesos redundantes</short>
+        <long>Filtrar secuencias de accesos idénticos</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Cacher les événements redondants</short>
+        <long>Cacher les séquences d&apos;événements identiques.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Többszörös találatok kiszűrése</short>
+        <long>Azonos találatokból álló sorozatok kiszűrése.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Ignorare le hit ridondanti</short>
+        <long>Ignora le sequenze di hit identiche.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>フィルタで冗長 (詳細) なログを取り除く</short>
+        <long>同一ヒットに関連する情報をフィルタの対象外にします。</long>
+      </locale>
+
+      <locale name="lv">
+        <short>Atfiltrēt liekos trāpījumus</short>
+        
+      </locale>
+
+      <locale name="nb">
+        <short>Filtrer bort identiske treff</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Dubbele hits er uit filteren</short>
+        <long>Series van gelijke hits er uit filteren.</long>
+      </locale>
+
+      <locale name="no">
+        <short>Filtrer bort identiske treff</short>
+        
+      </locale>
+
+      <locale name="pa">
+        <short>ਫਾਲਤੂ ਪ੍ਭਾਵ ਵੱਖ ਕਰੋ</short>
+        <long>ਸਮਾਨਾਰਥਕ ਪ੍ਭਾਵਾਂ ਦੀ ਲੜੀ ਨੂੰ ਵੱਖ ਕਰੋ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Odfiltrowywanie zduplikowanych trafień</short>
+        <long>Odfiltrowywanie sekwencji identycznych trafień.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Filtrar acessos redundantes</short>
+        <long>Filtrar sequências de acessos idênticos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Filtrar acessos redundantes</short>
+        <long>Filtrar seqüências de acessos idênticos.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Фильтровать повторные попадания</short>
+        <long>Фильтровать последовательности идентичных попаданий.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Filtrovať opakované zásahy</short>
+        <long>Filtrovať opakované zásahy.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Одбијај сувишне пакете</short>
+        <long>Одбијај низове истих пакета.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Odbijaj suvišne pakete</short>
+        <long>Odbijaj nizove istih paketa.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Filtrera bort identiska träffar</short>
+        <long>Filtrera bort sekvenser med identiska träffar.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Fazla erişenleri gösterme</short>
+        <long>Özdeş erişimlerin hepsini gösterme.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Lọc ra các cú quét thừa</short>
+        <long>Lọc ra các chuỗi cú quét giống nhau</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/filter/not_for_firewall</key>
+      <applyto>/apps/firestarter/client/filter/not_for_firewall</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Filter out hits not targeted at the firewall</short>
+        <long>Filter out hits that have an destination IP that does not match the firewall host.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Filtra les peticions no dirigides al tallafoc</short>
+        <long>Filtra les peticions que tenen una adreça IP destí que no coincideix amb la màquina del tallafoc.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Odfiltrovat zásahy nemířené na firewall</short>
+        <long>Odfiltrovat zásahy, které mají cílovou IP, která neodpovídá počítači s firewallem.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Ausfiltern von Treffern, die nicht auf die Firewall gerichtet waren</short>
+        <long>Ausfiltern von Treffern, deren Ziel-IP nicht mit der des Firewall-Rechners übereinstimmt.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Filter out hits not targeted at the firewall</short>
+        <long>Filter out hits that have a destination IP that does not match the firewall host.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Filter out hits not targeted at the firewall</short>
+        <long>Filter out hits that have an destination IP that does not match the firewall host.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Filtrar accesos sin destino en el cortafuegos</short>
+        <long>Filtrar accesos que tengan una IP de destino que no coincida con la del host del cortafuegos.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Cacher les événements hors pare-feu</short>
+        <long>Cacher les événements dont l&apos;IP de destination ne correspond pas à celui de l&apos;hôte du pare-feu.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A nem a tűzfalra irányuló találatok kiszűrése</short>
+        <long>Azon találatok kiszűrése, melyek cél IP-je nem azonos a tűzfalgép IP-jével.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ファイヤーウォールを対象としないヒットをフィルタする</short>
+        <long>ファイヤーウォールのホストではない IP を送信先としてもつパケットをフィルタの対象外にします。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Verwijder hits die niet gericht waren op de firewall</short>
+        <long>Hits er uit filteren die een ander bestemmingsadres hebben dan de firewall</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Fitrar acessos cujo alvo não é o firewall</short>
+        <long>Filtrar acessos que tenham um IP de destino que não coincide com a máquina do firewall.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Hedefi güvenlik duvarı olmayan paketleri gösterme</short>
+        <long>Bunu seçerseniz, hedef IP&apos;si güvenlik duvarınınki olmayan erişimleri Erişenler görünümünde görmezsiniz.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Lọc bỏ các cú quét không nhắm tới tường lửa</short>
+        <long>Lọc bỏ các cú quét có IP đích không tương ứng với máy tường lửa.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_time_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_time_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the time column in the Hit View</short>
+        <long>Show the time column in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna de temps a la vista de peticions</short>
+        <long>Mostra la columna de temps a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec času v Pohledu zásahů</short>
+        <long>Zobrazovat sloupec času v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Zeit-Spalte in Ereignisliste anzeigen</short>
+        <long>Zeit-Spalte in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης χρόνου στην Προβολή επισκέψεων</short>
+        <long>Εμφάνιση της στήλης χρόνου στην Προβολή επισκέψεων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the time column in the Hit View</short>
+        <long>Show the time column in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the time column in the Hit View</short>
+        <long>Show the time column in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de la hora en la vista de accesos</short>
+        <long>Muestra la columna con la hora en la vista de accesos</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher la date dans la liste des événements</short>
+        <long>Afficher la date dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Az &quot;Idő&quot; oszlop mutatása a találatok nézetben</short>
+        <long>Az időt tartalmazó oszlop mutatása a találatok nézetben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna «Data/ora» in «Vista delle hit»</short>
+        <long>Mostra la colonna «Data/ora» in «Vista delle hit».</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中に時刻を表示する</short>
+        <long>ヒット一覧の中に時刻を表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;tijd&apos;- kolom weergeven in het hits-overzicht.</short>
+        <long>De &apos;tijd&apos;- kolom weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸਮਾਂ ਕਾਲਮ ਦਿਖਾਓ</short>
+        <long>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸਮਾਂ ਕਾਲਮ ਦਿਖਾਓ ੤</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlanie kolumny czasu w widoku trafień</short>
+        <long>Wyświetlanie kolumny czasu w widoku trafień.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de data na Vista de Acessos</short>
+        <long>Apresentar a coluna de data na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de horário na Vista de Acessos</short>
+        <long>Mostrar a coluna de horário na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec s časom v pohľade zásahov</short>
+        <long>Zobraziť stĺpec s časom v pohľade zásahov.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј колону о времену у Прегледнику пакета</short>
+        <long>Приказуј колону о времену у Прегледнику пакета</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj kolonu o vremenu u Pregledniku paketa</short>
+        <long>Prikazuj kolonu o vremenu u Pregledniku paketa</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa tidskolumnen i träffvyn</short>
+        <long>Visa tidskolumnen i träffvyn.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde zaman sütununu göster</short>
+        <long>Erişim gösteriminde zaman sütununu göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột thời gian trong khung xem cú quét</short>
+        <long>Hiển thị cột thời gian trong khung xem cú quét</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_direction_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_direction_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the direction column in the Hit View</short>
+        <long>Show the direction column in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna de direcció a la vista de peticions</short>
+        <long>Mostra la columna de direcció a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec směru v Pohledu zásahů</short>
+        <long>Zobrazovat sloupec směru v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Richtungsspalte in Trefferliste anzeigen</short>
+        <long>Richtungsspalte in der Trefferliste anzeigen.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the direction column in the Hit View</short>
+        <long>Show the direction column in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the direction column in the Hit View</short>
+        <long>Show the direction column in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de dirección en la vista de accesos</short>
+        <long>Muestra la columna de dirección en la vista de accesos.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher la direction dans la liste des événements</short>
+        <long>Afficher la direction dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Az Irány oszlop mutatása a találatok nézetben</short>
+        <long>Az Irány oszlop mutatása a találatok nézetben.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中に送信方向を表示する</short>
+        <long>ヒット一覧の中にパケットを送信する向きを表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;richting&apos;- kolom weergeven in het hits-overzicht.</short>
+        <long>De &apos;richting&apos;-kolom weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de direção na Vista de Acessos</short>
+        <long>Mostrar a coluna de direção na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde doğrultu sütununu göster</short>
+        <long>Erişim gösteriminde doğrultu sütununu göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột phương hướng trong khung xem cú quét</short>
+        <long>Hiển thị cột đích trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_in_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_in_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the in column in the Hit View</short>
+        <long>Show the device the hit was received from in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna d&apos;entrada a la vista de peticions</short>
+        <long>Mostra el dispositiu des del que s&apos;ha rebut la petició a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec vstupu v Pohledu zásahů</short>
+        <long>Zobrazovat zařízení, odkud byl přijat zásah, v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Eingehend-Spalte in Ereignisliste anzeigen</short>
+        <long>Das Gerät, von dem ein Treffer empfangen wurde, in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης εισόδου στην Προβολή επισκέψεων</short>
+        
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the in column in the Hit View</short>
+        <long>Show the device the hit was received from in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the in column in the Hit View</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de entradas en la vista de accesos</short>
+        <long>Mostrar el dispositivo donde se recibió el acceso en la vista de accesos.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher l&apos;entrée dans la liste des événements</short>
+        <long>Afficher le périphérique depuis lequel l&apos;événement a été reçu dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A &quot;Be&quot; oszlop mutatása a találatok nézetben</short>
+        <long>Eszköz mutatása a találatok nézetben, amelytől a találat érkezett.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna «in» in «Vista delle hit»</short>
+        
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中に受信を表示する</short>
+        <long>ヒット一覧の中にヒットしたデバイスを表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;in&apos;- kolom weergeven in het hits-overzicht.</short>
+        
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਅੰਦਰ ਕਾਲਮ ਦਿਖਾਓ</short>
+        
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlanie kolumny wejścia w widoku trafień</short>
+        
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de entrada na Vista de Acessos</short>
+        
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de entrada na Vista de Acessos</short>
+        
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec v pohľade zásahov</short>
+        
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј долазни саобраћај у Прегледнику пакета</short>
+        
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj dolazni saobraćaj u Pregledniku paketa</short>
+        
+      </locale>
+
+      <locale name="sv">
+        <short>Visa inkolumnen i träffvyn.</short>
+        
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde içeri sütununu göster</short>
+        
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột vào (in) trong khung xem cú quét</short>
+        <long>Hiển thị thiết bị, mà từ đó nhận được cú quét, trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_out_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_out_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the out column in the Hit View</short>
+        <long>Show the device the hit was routed to in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna de sortida a la vista de peticions</short>
+        <long>Mostra el dispositiu al qual s&apos;ha encaminat la petició a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec výstupu v Pohledu zásahů</short>
+        <long>Zobrazovat zařízení, kam byl předán zásah, v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Ausgehend-Spalte in Trefferliste anzeigen</short>
+        <long>Das Gerät, an das ein Treffer geroutet wurde, in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης εξόδου στην Προβολή επισκέψεων</short>
+        <long>Εμφάνιση της συσκευής που δρομολόγησε την επίσκεψη στην Προβολή επισκέψεων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the out column in the Hit View</short>
+        <long>Show the device the hit was routed to in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the out column in the Hit View</short>
+        <long>Show the device the hit was routed to in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de salidas en la vista de accesos</short>
+        <long>Mostrar el dispositivo al que el acceso fue encaminado en la vista de accesos.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher la sortie dans la liste des événements</short>
+        <long>Afficher le périphérique vers lequel l&apos;événement a été routé dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>&quot;Ki&quot; oszlop mutatása a találatok nézetben</short>
+        <long>Azon eszköz megjelenítése a találati listában, melyen keresztül a találat érkezett.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna «out» in «Vista delle hit»</short>
+        <long>Mostra l&apos;interfaccia su cui si è ricevuta l&apos;hit in «Vista delle hit».</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中に送信を表示する</short>
+        <long>ヒット一覧の中にヒットをルーティングしたデバイスを表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;uit&apos;- kolom weergeven in het hits-overzicht.</short>
+        <long>Het apparaat waar de hit naar doorgestuurd werd weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਬਾਹਰੀ ਕਾਲਮ ਦਿਖਾਓ</short>
+        <long>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸਾਧਨ ਜਿਸ ਵਿਚੋਂ ਪ੍ਭਾਵ ਗੁਜਰਿਆ ਸੀ ਦਿਖਾਓ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlanie kolumny wyjścia w widoku trafień</short>
+        <long>Wyświetlanie urządzenia, do którego zostało przesłane trafienie w widoku trafień</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de saída na Vista de Acessos</short>
+        <long>Apresentar o dispositivo para onde foi redireccionado o acesso na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de saída na Vista de Acessos</short>
+        <long>Mostrar o dispositivo para onde foi redirecionado o acesso na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec odosielané v pohľade zásahov</short>
+        <long>Zobraziť stĺpec so zariadením, kam bol zásah presmerovaný v pohľade zásahov.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј колону о одлазном саобраћају у Прегледнику пакета</short>
+        <long>Приказуј уређај преко којег се рутирао пакет у Прегледнику пакета.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj kolonu o odlaznom saobraćaju u Pregledniku paketa</short>
+        <long>Prikazuj uređaj preko kojeg se rutirao paket u Pregledniku paketa.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa utkolumnen i träffvyn</short>
+        <long>Visa den enhet som träffen dirigerades till i träffvyn.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde dışarı sütununu göster</short>
+        <long>Erişim gösteriminde erişimin yönlendirildiği aygıtı göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột ra (out) trong khung xem cú quét</short>
+        <long>Hiển thị thiết bị mà cú quét hướng đến trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_port_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_port_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the port column in the Hit View</short>
+        <long>Show the port column in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna de port a la vista de peticions</short>
+        <long>Mostra la columna de port a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec portu v Pohledu zásahů</short>
+        <long>Zobrazovat sloupec portu v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Port-Spalte in Ereignisliste anzeigen</short>
+        <long>Port-Spalte in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης θύρας στην προβολή επισκέψεων</short>
+        <long>Εμφάνιση της στήλης θύρας στην προβολή επισκέψεων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the port column in the Hit View</short>
+        <long>Show the port column in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the port column in the Hit View</short>
+        <long>Show the port column in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna del puerto en la vista de accesos</short>
+        <long>Muestra la columna del puerto en la vista de accesos.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher le port dans la liste des événements</short>
+        <long>Afficher le port dans la liste de événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A Port oszlop mutatása a találatok nézetben</short>
+        <long>A Port oszlop mutatása a találatok nézetben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna «porta» in «Vista delle hit»</short>
+        <long>Mostra la colonna «porta» in «Vista delle hit».</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中にポート番号を表示する</short>
+        <long>ヒット一覧の中にポート番号を表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;poort&apos;- kolom weergeven in het hits-overzicht.</short>
+        <long>De &apos;poort&apos;- kolom weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪੋਰਟ ਕਾਲਮ ਦਿਖਾਓ</short>
+        <long>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪੋਰਟ ਕਾਲਮ ਦਿਖਾਓ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlanie kolumny portu w widoku trafień</short>
+        <long>Wyświetlanie kolumny portu w widoku trafień.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de porto na Vista de Acessos</short>
+        <long>Apresentar a coluna de porto na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de porta na Vista de Acessos</short>
+        <long>Mostrar a coluna de porta na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec s číslom portu v pohľade zásahov</short>
+        <long>Zobraziť stĺpec s číslom portu v pohľade zásahov.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј колону о порту у Прегледнику пакета</short>
+        <long>Приказуј колону о порту у Прегледнику пакета</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj kolonu o portu u Pregledniku paketa</short>
+        <long>Prikazuj kolonu o portu u Pregledniku paketa</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa portkolumnen i träffvyn</short>
+        <long>Visa portkolumnen i träffvyn.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde port sütununu göster</short>
+        <long>Erişim gösteriminde port sütununu göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột cổng (port) trong khung xem cú quét</short>
+        <long>Hiển thị cột cổng (port) trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_source_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_source_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the source column in the Hit View</short>
+        <long>Show the source column in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna d&apos;origen a la vista de peticions</short>
+        <long>Mostra la columna d&apos;origen a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec zdroje v Pohledu zásahů</short>
+        <long>Zobrazovat sloupec zdroje v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Quellen-Spalte in Ereignisliste anzeigen</short>
+        <long>Quellen-Spalte in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης πηγής στην Προβολή επισκέψεων</short>
+        <long>Εμφάνιση της στήλης πηγής στην Προβολή επισκέψεων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the source column in the Hit View</short>
+        <long>Show the source column in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the source column in the Hit View</short>
+        <long>Show the source column in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de origen en la vista de accesos.</short>
+        <long>Muestra la columna de origen en la vista de accesos.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher la source dans la liste des événements</short>
+        <long>Afficher la source dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A &quot;Forrás&quot; oszlop mutatása a találatok nézetben</short>
+        <long>A forrást tartalmazó oszlop mutatása a találatok nézetben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna «sorgente» in «Vista delle hit»</short>
+        <long>Mostra la colonna «sorgente» nella «Vista delle hit».</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中に送信元を表示する</short>
+        <long>ヒット一覧の中に送信元を表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;bron&apos;- kolom weergeven in het hits-overzicht.</short>
+        <long>De &apos;bron&apos;- kolom weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸ੍ਰੋਤ ਕਾਲਮ ਦਿਖਾਓ</short>
+        <long>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸ੍ਰੋਤ ਕਾਲਮ ਦਿਖਾਓ ੤</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlanie kolumny źródła w widoku trafień</short>
+        <long>Wyświetlanie kolumny źródła w widoku trafień.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de origem na Vista de Acessos</short>
+        <long>Apresentar a coluna de origem na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de origem na Vista de Acessos</short>
+        <long>Mostrar a coluna de origem na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec so zdrojom v pohľade zásahov</short>
+        <long>Zobraziť stĺpec so zdrojom v pohľade zásahov.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј колону о извору у Прегледнику пакета</short>
+        <long>Приказуј колону о извору у Прегледнику пакета</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj kolonu o izvoru u Pregledniku paketa</short>
+        <long>Prikazuj kolonu o izvoru u Pregledniku paketa</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa källkolumnen i träffvyn</short>
+        <long>Visa källkolumnen i träffvyn.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde kaynak sütununu göster</short>
+        <long>Erişim gösteriminde kaynak sütununu göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột nguồn trong khung xem cú quét</short>
+        <long>Hiển thị cột nguồn trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_destination_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_destination_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the destination column in the Hit View</short>
+        <long>Show the destination column in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna de destinació a la vista de peticions</short>
+        <long>Mostra la columna de destinació a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec cíle v Pohledu zásahů</short>
+        <long>Zobrazovat sloupec cíle v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Ziel-Spalte in der Ereignisliste anzeigen</short>
+        <long>Ziel-Spalte in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης προορισμού στην Προβολή επισκέψεων</short>
+        <long>Εμφάνιση της στήλης προορισμού στην Προβολή επισκέψεων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the destination column in the Hit View</short>
+        <long>Show the destination column in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the destination column in the Hit View</short>
+        <long>Show the destination column in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de destino en la vista de accesos</short>
+        <long>Muestra la columna de destino en la vista de accesos.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher la destination dans la liste des événements</short>
+        <long>Afficher la destination dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A &quot;Cél&quot; oszlop mutatása a találatok nézetben</short>
+        <long>A célt tartalmazó oszlop mutatása a találatok nézetben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna destinazione nella «Vista delle hit»</short>
+        <long>Mostra la colonna destinazione nella «Vista delle hit».</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中に受信先を表示する</short>
+        <long>ヒット一覧の中に受信先を表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;bestemming&apos;-kolom weergeven in het hits-overzicht</short>
+        <long>De &apos;bestemming&apos;-kolom weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਲਕਸ਼ ਕਾਲਮ ਦਿਖਾਓ</short>
+        <long>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿਚ ਲਕਸ਼ ਕਾਲਮ ਦਿਖਾਓ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlanie kolumny przeznaczenia w widoku trafień</short>
+        <long>Wyświetlanie kolumny przeznaczenia w widoku trafień.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de destino na Vista de Acessos</short>
+        <long>Apresentar a coluna de destino na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna destino na Vista de Acessos</short>
+        <long>Mostrar a coluna destino na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec s cieľom v pohľade zásahov</short>
+        <long>Zobraziť stĺpec s cieľom v pohľade zásahov.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј колону о циљу у Прегледнику пакета</short>
+        <long>Приказуј колону о циљу у Прегледнику пакета</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj kolonu o cilju u Pregledniku paketa</short>
+        <long>Prikazuj kolonu o cilju u Pregledniku paketa</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa destinationskolumnen i träffvyn</short>
+        <long>Visa destinationskolumnen i träffvyn.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde hedef sütununu göster</short>
+        <long>Erişim gösteriminde hedef sütununu göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột đích trong khung xem cú quét</short>
+        <long>Hiển thị cột đích trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_length_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_length_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the length column in the Hit View</short>
+        <long>Show the packet length column in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna de longitud a la vista de peticions</short>
+        <long>Mostra la columna de longitud del paquet a la vista de peticions</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec délky v Pohledu zásahů</short>
+        <long>Zobrazovat sloupec délky paketu v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Längenspalte in Ereignisliste anzeigen</short>
+        <long>Paketlängen-Spalte in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης διάρκειας στην Προβολή επισκέψεων</short>
+        <long>Εμφάνιση της στήλης διάρκειας πακέτου στην Προβολή επισκέψεων</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the length column in the Hit View</short>
+        <long>Show the packet length column in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the length column in the Hit View</short>
+        <long>Show the packet length column in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de longitud en la vista de accesos</short>
+        <long>Muestra la columna con la longitud del paquete en la lista de conexiones.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher la longueur dans la liste des événements</short>
+        <long>Afficher la longueur du paquet dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A &quot;Hossz&quot; oszlop mutatása a találatok nézetben</short>
+        <long>A csomag hosszát tartalmazó oszlop mutatása a találatok nézetben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna «lunghezza» in «Vista delle hit»</short>
+        <long>Mostra la colonna «lunghezza del pacchetto» in «Vista delle hit».</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中にサイズを表示する</short>
+        <long>ヒット一覧の中にパケット・サイズを表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;lengte&apos;- kolom weergeven in het hits-overzicht.</short>
+        <long>De &apos;pakketlengte&apos;- kolom weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਲੰਬਾਈ ਕਾਲਮ ਦਿਖਾਓ</short>
+        <long>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪੈਕਟ ਲੰਬਾਈ ਕਾਲਮ ਦਿਖਾਓ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlanie kolumny długości w widoku trafień</short>
+        <long>Wyświetlanie kolumny długości pakietów w widoku trafień.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de comprimento na Vista de Acessos</short>
+        <long>Apresentar a coluna de tamanho de pacote na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de tamanho na Vista de Acessos</short>
+        <long>Mostrar a coluna de tamanho de pacote na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec s dĺžkou v pohľade zásahov</short>
+        <long>Zobraziť stĺpec s dĺžkou paketu v pohľade zásahov.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј колону о дужини у Прегледнику пакета</short>
+        <long>Приказуј колону о дужини пакета у Прегледнику пакета.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj kolonu o dužini u Pregledniku paketa</short>
+        <long>Prikazuj kolonu o dužini paketa u Pregledniku paketa.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa längdkolumnen i träffvyn.</short>
+        <long>Visa paketlängdskolumnen i träffvyn.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde uzunluk sütununu göster</short>
+        <long>Erişim gösteriminde paket uzunluğu sütununu göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột độ dài trong khung xem cú quét</short>
+        <long>Hiển thị cột độ dài gói trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_tos_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_tos_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Show the tos column in the Hit View</short>
+        <long>Show the Type of Service column in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna de tipus de servei a la vista de peticions</short>
+        <long>Mostra la columna de tipus de servei a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec TOS v Pohledu zásahů</short>
+        <long>Zobrazovat sloupec Typ služby v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Diensttyp-Spalte in Ereignisliste anzeigen</short>
+        <long>Diensttyp-Spalte in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης tos στην Προβολή επισκέψεων</short>
+        <long>Εμφάνιση της στήλης Τύπου Υπηρεσίας στην Προβολή επισκέψεων</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the tos column in the Hit View</short>
+        <long>Show the Type of Service column in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the tos column in the Hit View</short>
+        <long>Show the Type of Service column in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de TdS en la vista de accesos</short>
+        <long>Muestra la columna del «Tipo de servicio» en la vista de accesos.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher le Type de Service dans la liste des événements</short>
+        <long>Afficher le Type de Service dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A &quot;Szolgáltatások típusa&quot; oszlop mutatása a találatok nézetben</short>
+        <long>A szolgáltatás típusát tartalmazó oszlop mutatása a találatok nézetben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna «TOS» in «Vista delle hit»</short>
+        <long>Mostra la colonna TOS nella «Vista delle hit»</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中に ToS を表示する</short>
+        <long>ヒット一覧の中にサービス種を表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;ToS&apos;- kolom weergeven in het hits-overzicht.</short>
+        <long>De &apos;ToS&apos;- kolom weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ tos ਕਾਲਮ ਦਿਖਾਓ</short>
+        <long>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸੇਵਾ ਦੀ ਕਿਸਮ ਕਾਲਮ ਦਿਖਾਓ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlanie kolumny ToS w widoku trafień</short>
+        <long>Wyświetlanie kolumny ToS w widoku trafień.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de tds na Vista de Acessos</short>
+        <long>Apresentar a coluna de Tipo de Serviço na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de tds na Vista de Acessos</short>
+        <long>Mostrar a coluna Tipo de Serviço na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="ru">
+        
+        <long>Показывать столбец &quot;Тип сервиса&quot; в окне просмотра попаданий.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec s ToS v pohľade zásahov</short>
+        <long>Zobraziť stĺpec s typom služby v pohľade zásahov.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј колону о типу сервисa у Прегледнику пакета</short>
+        <long>Приказуј колону за тип сервиса у Прегледнику пакета.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj kolonu o tipu servisa u Pregledniku paketa</short>
+        <long>Prikazuj kolonu za tip servisa u Pregledniku paketa.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa tos-kolumnen i träffvyn</short>
+        <long>Visa Typ av tjänst-kolumnen i träffvyn.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde ToS sütununu göster</short>
+        <long>Erişim gösteriminde Servis Tipi sütununu göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột tos trong khung xem cú quét</short>
+        <long>Hiển thị cột Loại Dịch Vụ trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_protocol_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_protocol_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the protocol column in the Hit View</short>
+        <long>Show the protocol column in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna de protocol a la vista de peticions</short>
+        <long>Mostra la columna de protocol a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec protokolu v Pohledu zásahů</short>
+        <long>Zobrazovat sloupec protokolu v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Protokoll-Spalte in Ereignisliste anzeigen</short>
+        <long>Protokoll-Spalte in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης πρωτοκόλλου στην Προβολή επισκέψεων</short>
+        <long>Εμφάνιση της στήλης πρωτοκόλλου στην Προβολή επισκέψεων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the protocol column in the Hit View</short>
+        <long>Show the protocol column in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the protocol column in the Hit View</short>
+        <long>Show the protocol column in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de protocolo en la vista de accesos</short>
+        <long>Muestra la columna de protocolo en la vista de accesos.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher le protocole dans la liste des événements</short>
+        <long>Afficher le protocole dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A &quot;Protokoll&quot; oszlop mutatása a találatok nézetben</short>
+        <long>A protokollt tartalmazó oszlop mutatása a találatok nézetben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna «protocollo» nella «Vista delle hit»</short>
+        <long>Mostra la colonna «protocollo» in «Vista delle hit».</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中にプロトコルを表示する</short>
+        <long>ヒット一覧の中にプロトコルを表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;protocol&apos;- kolom weergeven in het hits-overzicht.</short>
+        <long>De &apos;poort&apos;- kolom weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪਰੋਟੋਕੋਲ ਕਾਲਮ ਦਿਖਾਓ</short>
+        <long>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਪਰੋਟੋਕੋਲ ਕਾਲਮ ਦਿਖਾਓ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlanie kolumny protokołu w widoku trafień</short>
+        <long>Wyświetlanie kolumny protokołu w widoku trafień.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de protocolo na Vista de Acessos</short>
+        <long>Apresentar a coluna de protocolo na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de protocolo na Vista de Acessos</short>
+        <long>Mostrar a coluna de protocolo na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec s protokolom v pohľade zásahov</short>
+        <long>Zobraziť stĺpec s protokolom v pohľade zásahov.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј колону о протоколу у Прегледнику пакета</short>
+        <long>Приказуј колону о протоколу у Прегледнику пакета</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj kolonu o protokolu u Pregledniku paketa</short>
+        <long>Prikazuj kolonu o protokolu u Pregledniku paketa</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa protokollkolumnen i träffvyn</short>
+        <long>Visa protokollkolumnen i träffvyn.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde iletişim kuralları sütununu göster</short>
+        <long>Erişim gösteriminde iletişim kuralları sütununu göster.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột giao thức trong khung xem cú quét</short>
+        <long>Hiển thị cột giao thức trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/client/ui/hitview_service_col</key>
+      <applyto>/apps/firestarter/client/ui/hitview_service_col</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Show the service column in the Hit View</short>
+        <long>Show the service column in the Hit View.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mostra la columna de servei a la vista de peticions</short>
+        <long>Mostra la columna de servei a la vista de peticions.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Zobrazovat sloupec služby v Pohledu zásahů</short>
+        <long>Zobrazovat sloupec služby v Pohledu zásahů.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Dienst-Spalte in Ereignisliste anzeigen</short>
+        <long>Dienst-Spalte in der Ereignisliste anzeigen.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Εμφάνιση της στήλης υπηρεσίας στην Προβολή επισκέψεων</short>
+        <long>Εμφάνιση της στήλης υπηρεσίας στην Προβολή επισκέψεων.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Show the service column in the Hit View</short>
+        <long>Show the service column in the Hit View.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Show the service column in the Hit View</short>
+        <long>Show the service column in the Hit View.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Muestra la columna de servicio en la vista de accesos</short>
+        <long>Muestra la columna de servicio en la vista de accesos</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Afficher le service dans la liste des événements</short>
+        <long>Afficher le service dans la liste des événements.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A &quot;Szolgáltatás&quot; oszlop mutatása a találatok nézetben</short>
+        <long>A szolgáltatást tartalmazó oszlop mutatása a találatok nézetben.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Mostra la colonna «servizio» in «Vista delle hit»</short>
+        <long>Mostra la colonna «servizio» in «Vista delle hit».</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ヒット一覧の中にサービスを表示する</short>
+        <long>ヒット一覧の中にサービス名を表示します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;dienst&apos;- kolom weergeven in het hits-overzicht.</short>
+        <long>De &apos;dienst&apos;- kolom weergeven in het hits-overzicht.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸੇਵਾ ਕਾਲਮ ਦਿਖਾਓ</short>
+        <long>ਪ੍ਭਾਵੀ ਦਰਿਸ਼ ਵਿੱਚ ਸੇਵਾ ਕਾਲਮ ਦਿਖਾਓ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wyświetlani kolumny usługi w widoku trafień</short>
+        <long>Wyświetlanie kolumny usługi w widoku trafień.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Apresentar a coluna de serviço na Vista de Acessos</short>
+        <long>Apresentar a coluna de serviço na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Mostrar a coluna de serviço na Vista de Acessos</short>
+        <long>Mostrar a coluna de serviço na Vista de Acessos.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Zobraziť stĺpec so službou v pohľade zásahov</short>
+        <long>Zobraziť stĺpec so službou v pohľade zásahov.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Приказуј колону о сервису у Прегледнику пакета</short>
+        <long>Приказуј колону о сервису у Прегледнику пакета</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Prikazuj kolonu o servisu u Pregledniku paketa</short>
+        <long>Prikazuj kolonu o servisu u Pregledniku paketa</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Visa tjänstekolumnen i träffvyn</short>
+        <long>Visa tjänstekolumnen i träffvyn.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Erişim gösteriminde servis sütununu göster</short>
+        <long>Erişim gösteriminde servis sütununu göster</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Hiển thị cột dịch vụ trong khung xem cú quét</short>
+        <long>Hiển thị cột dịch vụ trong khung xem cú quét.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/ext_if</key>
+      <applyto>/apps/firestarter/firewall/ext_if</applyto>
+      <owner>Firestarter</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>The external interface</short>
+        <long>The Internet connected network interface. For example, ppp0 or eth0.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>La interfície externa</short>
+        <long>Interfície de la xarxa connectada a internet. Per exemple, ppp0 o eth0.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Externí rozhraní</short>
+        <long>Síťové rozhraní připojené k Internetu. Například ppp0 nebo eth0.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Externe Schnittstelle</short>
+        <long>Die mit dem Internet verbundene Netzwerkschnittstelle. Mögliche Werte sind z.B. »ppp0« oder »eth0«.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Η εξωτερική επιφάνεια</short>
+        <long>Η διεπαφή σύνδεσης στο διαδίκτυο. Για παράδειγμα , ppp0 ή eth0.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>The external interface</short>
+        <long>The Internet connected network interface. For example, ppp0 or eth0.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>The external interface</short>
+        <long>The Internet connected network interface. For example, ppp0 or eth0.</long>
+      </locale>
+
+      <locale name="es">
+        <short>La interfaz externa</short>
+        <long>El interfaz de red conectado a Internet. Por ejemplo, ppp0 o eth0.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>L&apos;interface externe</short>
+        <long>L&apos;interface réseau reliée à Internet. Par exemple ppp0 ou eth0.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A külső csatoló</short>
+        <long>Az internetre csatlakozó hálózati csatoló. Például ppp0 vagy eth0.</long>
+      </locale>
+
+      <locale name="it">
+        <short>L&apos;interfaccia esterna</short>
+        <long>L&apos;interfaccia di rete connessa a Internet, ad esempio ppp0 o eth0.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>外部インタフェース</short>
+        <long>インターネットに接続するネットワーク・インタフェースです (例: ppp0, eth0)。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De externe interface</short>
+        <long>De netwerkverbinding die aangesloten is op internet. &apos;ppp0&apos; of &apos;eth0&apos; bijvoorbeeld.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਬਾਹਰੀ ਤਾਲਮੇਲ</short>
+        <long>ਇੰਟਰਨੈਟ ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਨੈਟਵਰਕ ਤਾਲਮੇਲ। ਉਦਾਹਰਨ ਲਈ  ppp0 ਜਾਂ eth0।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Zewnętrzny interfejs</short>
+        <long>Interfejs sieciowy podłączony do Internetu. Na przykład ppp0 lub eth0.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>O interface externo</short>
+        <long>O interface de rede ligado à Internet. Por exemplo, ppp0 ou eth0.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>A interface externa</short>
+        <long>A interface de rede conectada à Internet. Por exemplo, ppp0 ou eth0.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Внешний интерфейс</short>
+        <long>Сетевой интерфейс подключённый к Интернет. Например, ppp0 или eth0.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Externé rozhranie</short>
+        <long>Sieťové rozhranie pripojené k Internetu. Napríklad eth0 alebo ppp0.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Interfaqja e jashtme</short>
+        <long>Interfaqja e rrjetit për lidhjen Internet. P.sh., ppp0 ose eth0.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Спољни уређај</short>
+        <long>Мрежни уређај повезан на интернет. Рецимо, ppp0 или eth0.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Spoljni uređaj</short>
+        <long>Mrežni uređaj povezan na internet. Recimo, ppp0 ili eth0.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Det externa gränssnittet</short>
+        <long>Det nätverksgränssnitt som är anslutet till Internet. Till exempel ppp0 eller eth0.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Dış arayüz</short>
+        <long>İnternete bağlı ağ arayüzü. Örneğin, ppp0 veya eth0.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Giao tiếp ngoài</short>
+        <long>Giao tiếp của kết nối mạng Internet. Ví dụ:, ppp0 hay eth0.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>外部接口</short>
+        <long>连接 Internet 的网络接口。例如 ppp0 或 eth0。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>對外網路界面</short>
+        <long>連接至網際網路的網路界面，例如 ppp0 或者 eth0。</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/nat</key>
+      <applyto>/apps/firestarter/firewall/nat</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable NAT</short>
+        <long>Enable Network Address Translation, or Internet connection sharing.</long>
+      </locale>
+
+      <locale name="az">
+        <short>NAT&apos;ı Fəallaşdır</short>
+        
+      </locale>
+
+      <locale name="ca">
+        <short>Habilita traducció d&apos;adreces</short>
+        <long>Habilita la traducció d&apos;adreces de xarxa o compartició de la connexió a Internet.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Povolit NAT</short>
+        <long>Povolit překlad síťových adres neboli sdílení připojení k Internetu.</long>
+      </locale>
+
+      <locale name="de">
+        <short>NAT aktivieren</short>
+        <long>Netzwerkadressübersetzung für eine gemeinsame Internet-Verbindung aktivieren</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ενεργοποίηση NAT</short>
+        <long>Ενεργοποίηση Μετάφρασης Διεύθυνσης Δικτύου ,ή διαμοιρασμό σύνδεσης διαδικτύου.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Enable NAT</short>
+        <long>Enable Network Address Translation, or Internet connection sharing.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable NAT</short>
+        <long>Enable Network Address Translation, or Internet connection sharing.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar NAT</short>
+        <long>Habilitar la traducción de direcciones (NAT), o la compartición de la conexión.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Activer la translation d&apos;adresse réseau (NAT)</short>
+        <long>Activer la translation d&apos;adresse réseau ou le partage de connexion Internet.</long>
+      </locale>
+
+      <locale name="ga">
+        <short>Cumasach NAT1</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>NAT engedélyezése</short>
+        <long>Hálózati címfordítás (=NAT) vagy internetkapcsolat-megosztás engedélyezése.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Abilita il NAT</short>
+        <long>Abilita la traduzione degli indirizzi di rete (condivisione della connessione internet).</long>
+      </locale>
+
+      <locale name="ja">
+        <short>NAT を有効にする</short>
+        <long>ネットワーク・アドレス変換、またはインターネット接続共有を有効にします。</long>
+      </locale>
+
+      <locale name="nb">
+        <short>Aktiver NAT</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>Gebruik NAT</short>
+        <long>Network Address Translation (ook wel &apos;internet verbinding delen&apos;) gebruiken.</long>
+      </locale>
+
+      <locale name="no">
+        <short>Aktiver NAT</short>
+        
+      </locale>
+
+      <locale name="pa">
+        <short>NAT ਯੋਗ ਕਰੋ</short>
+        <long>ਨੈਟਵਰਕ ਪਤਾ ਉਲਥਾ ਜਾਂ ਇੰਟਰਨੈਟ ਜੋੜ ਸਾਂਝ ਯੋਗ ਕਰੋ</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Włączony NAT</short>
+        <long>Włączone przekształcanie adresów sieciowych lub współdzielenie połączenia internetowego.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar NAT</short>
+        <long>Activar Tradução de Endereços de Rede (NAT), ou partilha de ligação à Internet.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilitar NAT</short>
+        <long>Habilitar Tradução de Endereços Rede (NAT), ou compartilhamento de conexão com a Internet.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Включить трансляцию адресов (NAT)</short>
+        <long>Включить трансляцию сетевых адресов или разделение соединения с Интернет.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Povoliť NAT</short>
+        <long>Povoliť preklad sieťových adries NAT alebo zdieľanie pripojenia.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Aktivo NAT</short>
+        <long>Aktivo Network Address Translation, ose ndarjen e lidhjes Internet.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Омогући NAT</short>
+        <long>Омогући Превод мрежних адреса или дељење интернет конекције.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Omogući NAT</short>
+        <long>Omogući Prevod mrežnih adresa ili deljenje internet konekcije.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera NAT</short>
+        <long>Aktivera översättning av nätverksadresser (NAT) eller delning av Internetanslutning.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>NAT Etkin</short>
+        <long>Ağ Adresi Dönüştürmeyi (NAT) ya da Internet bağlantısı paylaştırmayı etkinleştir.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Bật NAT</short>
+        <long>Bật chạy Dịch Địa Chỉ Mạng (NAT), hoặc chia sẻ kết nối Internet.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>启用 NAT</short>
+        <long>启用网络地址翻译或 Internet 连接共享。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用 NAT</short>
+        <long>啟用「網路位址轉譯」(Network Address Translation)，或者分享網際網路連線</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/int_if</key>
+      <applyto>/apps/firestarter/firewall/int_if</applyto>
+      <owner>Firestarter</owner>
+      <type>string</type>
+      <default></default>
+      <locale name="C">
+        <short>The internal interface</short>
+        <long>The LAN connected network interface. For example, eth0 or eth1.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>La interfície interna</short>
+        <long>Interfície de la xarxa connectada a la LAN. Per exemple, eth0 o eth1.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Interní rozhraní</short>
+        <long>Síťové rozhraní připojené k LAN. Například eth0 nebo eth1.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Interne Schnittstelle</short>
+        <long>Die mit dem lokalen Netzwerk verbundene Schnittstelle. Mögliche Werte sind z.B. »eth0« oder »eth1«.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Η εσωτερική επιφάνεια</short>
+        <long>Η διεπαφή σύνδεσης σε LAN. Για παράδειγμα, eth0 ή eth1. </long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>The internal interface</short>
+        <long>The LAN connected network interface. For example, eth0 or eth1.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>The internal interface</short>
+        <long>The LAN connected network interface. For example, eth0 or eth1.</long>
+      </locale>
+
+      <locale name="es">
+        <short>La interfaz interna</short>
+        <long>El interfaz de red conectado a la LAN. Por ejemplo, eth0 o eth1.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>L&apos;interface interne</short>
+        <long>L&apos;interface réseau reliée au réseau local. Par exemple eth0 ou eth1.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A belső csatoló</short>
+        <long>A LAN-ra csatlakozó hálózati csatoló. Például eth0 vagy eth1.</long>
+      </locale>
+
+      <locale name="it">
+        <short>L&apos;interfaccia interna</short>
+        <long>L&apos;interfaccia di rete connessa con la LAN. Per esempio eth0 o eth1.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>インターネット・インタフェース</short>
+        <long>LAN に接続するネットワーク・インタフェースです (例: ppp0, eth0)。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>De interne interface</short>
+        <long>De netwerkverbinding die aangesloten is op het interne netwerk. &apos;eth0&apos; of &apos;eth1&apos; bijvoorbeeld.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ਅੰਦਰੂਨੀ ਤਾਲਮੇਲ</short>
+        <long>LAN ਨਾਲ ਜੁੜਿਆ ਹੋਇਆ ਨੈਟਵਰਕ ਤਾਲਮੇਲ। ਉਦਾਹਰਨ ਲਈ  eth0 ਜਾਂ eth1।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Wewnętrzny interfejs</short>
+        <long>Interfejs sieciowy podłączony do LAN-u. Na przykład eth0 lub eth1.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>O interface interno</short>
+        <long>O interface de rede ligado à rede interna (LAN). Por exemplo, eth0 ou eth1.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>A interface interna</short>
+        <long>A interface de rede conectada à rede interna (LAN). Por exemplo, eth0 ou eth1.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Внутренний интерфейс</short>
+        <long>Сетевой интерфейс подключённый к локальной сети. Например, eth0 или eth1.</long>
+      </locale>
+
+      <locale name="sk">
+        <short>Interné rozhranie</short>
+        <long>Sieťové rozhranie pripojené k LAN. Napríklad eth0 alebo eth1.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Interfaqja e brendshme</short>
+        <long>Interfaqja e rrjetit e lidhur me LAN. P.sh., eth0 ose eth1.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Унутрашњи уређај</short>
+        <long>Мрежни уређај повезан у локалну мрежу. Рецимо, eth0 или eth1.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Unutrašnji uređaj</short>
+        <long>Mrežni uređaj povezan u lokalnu mrežu. Recimo, eth0 ili eth1.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Det interna gränssnittet</short>
+        <long>Det nätverksgränssnitt som är ansluten till det lokala nätverket. Till exempel eth0 eller eth1.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>İç arayüz</short>
+        <long>Yerel ağa bağlanma ağ arayüzü. Örneğin, eth0 yada eth1.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Giao tiếp trong</short>
+        <long>Giao tiếp của kết nối mạng cục bộ (LAN). Ví dụ: eth0 hay eth1.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>内部接口</short>
+        <long>连接局域网的网络接口。例如 eth0 或 eth1。</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>對內網路界面</short>
+        <long>連接至內部網路的界面，例如 eth0 或者 eth1。</long>
+      </locale>
+    </schema>
+    
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/dhcp/enable_server</key>
+      <applyto>/apps/firestarter/firewall/dhcp/enable_server</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable DHCP server for connection sharing</short>
+        <long>Run the system dhcpd server in conjunction with Firestarter Internet connection sharing.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Habilita el servidor DHCP per compartir la connexió</short>
+        <long>Executa el servidor dhcpd del sistema juntament amb la compartició de connexió d&apos;Internet del Firestarter.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Povolit server DHCP pro sdílení připojení</short>
+        <long>Spustit systémový server dhcpd spolu se sdílením připojení k Internetu Firestarteru.</long>
+      </locale>
+
+      <locale name="de">
+        <short>DHCP Server für Verbindungsteilung aktivieren</short>
+        <long>DHCPD Server des Systems in Verbindung mit der Firestarter Internet-Verbindungsteilung laufen lassen.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Enable DHCP server for connection sharing</short>
+        <long>Run the system dhcpd server in conjunction with Firestarter Internet connection sharing.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable DHCP server for connection sharing</short>
+        <long>Run the system dhcpd server in conjunction with Firestarter Internet connection sharing.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar servidor DHCP para compartición de conexión</short>
+        <long>Ejecutar el servidor DHCP del sistema junto con la compartición de conexión de Internet de Firestarter.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Autoriser le serveur DHCP pour le partage de la connexion</short>
+        <long>Lancer le serveur dhcpd conjointement avec le partage de la connexion Internet.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>DHCP kiszolgáló bekapcsolása a kapcsolatmegosztáshoz</short>
+        <long>A rendszer dhcpd kiszolgálójának futtatása a Firestarter internet-kapcsolat megosztásával együtt.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>DHCP サーバの接続共有を有効にする</short>
+        <long>Firestarter インターネット接続共有で接続しているシステム DHCP サーバを起動します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Activeer een DHCP bij het delen van een internet connectie</short>
+        <long>Start de DHCP server die op het systeem aanwezig is bij het delen van de internet verbinding via Firestarter.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar o servidor DHCP para partilha de ligação</short>
+        <long>Executar o servidor dhcpd do sistema juntamente com a partinha de ligação à Internet Firestarter.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilitar o servidor DHCP para compartilhamento de conexão</short>
+        <long>Executar o servidor dhcpd do sistema em conjunto com o Compartilhamento de conexão Internet do Firestarter.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Bağlantı paylaştırma için DHCP sunucusunu etkinleştir</short>
+        <long>Sistemin dhcp sunucusunu Firestarter Internet Bağlantı Paylaştırması ile birlikte çalıştır.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Sử dụng máy chủ DHCP cho chia sẻ kết nối</short>
+        <long>Chạy máy chủ dhcpd hệ thống liên kết với dịch vụ chia sẻ kết nối Internet Firestarter.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>启用连接共享的 DHCP 服务器</short>
+        
+      </locale>
+    </schema>    
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/dhcp/lowest_ip</key>
+      <applyto>/apps/firestarter/firewall/dhcp/lowest_ip</applyto>
+      <owner>Firestarter</owner>
+      <type>string</type>
+      <default>192.168.0.100</default>
+      <locale name="C">
+        <short>Lowest IP in the range to serve to DHCP clients</short>
+        <long>Specifies the lower limit of the IP space to use for DHCP leases.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>L&apos;adreça IP més baixa per servir als clients DHCP</short>
+        <long>Especifica el límit inferior de l&apos;espai IP per fer servir en prèstecs DHCP.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Nejnižší IP v rozsahu, který nabízet klientům DHCP</short>
+        <long>Určuje spodní limit rozsahu IP, který používat pro pronájmy DHCP.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Niedrigste IP-Adresse, die für DHCP Clients zur Verfügung gestellt wird.</short>
+        <long>Legt das untere Limit für den IP-Bereich fest, der für DHCP Leases benutzt werden kann.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Lowest IP in the range to serve to DHCP clients</short>
+        <long>Specifies the lower limit of the IP space to use for DHCP leases.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Lowest IP in the range to serve to DHCP clients</short>
+        <long>Specifies the lower limit of the IP space to use for DHCP leases.</long>
+      </locale>
+
+      <locale name="es">
+        <short>La IP más baja en el rango para servir a los clientes DHCP</short>
+        <long>Especifica el límite inferior del espacio de IPs a usar para las concesiones DHCP.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Plus petite adresse IP de l&apos;intervalle pour les clients DHCP</short>
+        <long>Spécifier la limite basse de l&apos;espace d&apos;adressage IP à utiliser pour DHCP.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A DHCP kliensek kiszolgálására használt IP tartomány legalsó eleme</short>
+        <long>Megadja a DHCP-vel kiosztható IP tartomány alsó határát.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>DHCP クライアントに貸し出す IP レンジの下限</short>
+        <long>DHCP の貸し出しに使用する IP 空間の下限値を指定します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Laagste IP adres om uit te delen via DHCP</short>
+        <long>Bepaalt de ondergrens van de IP adressen om uit te delen via  DHCP.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Menor IP no intervalo a servir a clientes DHCP</short>
+        <long>Especifica o limite inferior do espaço IP a utilizar para alocações por DHCP.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>O IP mais baixo no limite para servir a clientes DHCP</short>
+        <long>Especifica o limite inferior do espaço de IPs a usar para requisições DHCP.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>DHCP istemcilerine verilecek en düşük IP nuamrası</short>
+        <long>DHCP ile kullanılacak IP atama aralığının alt sınırını belirler.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Địa chỉ IP thấp nhất sẽ cung cấp cho máy khách DHCP</short>
+        <long>Xác định giới hạn dưới của khoảng IP sẽ dùng cho DHCP.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/dhcp/highest_ip</key>
+      <applyto>/apps/firestarter/firewall/dhcp/highest_ip</applyto>
+      <owner>Firestarter</owner>
+      <type>string</type>
+      <default>192.168.0.254</default>
+      <locale name="C">
+        <short>Highest IP in the range to serve to DHCP clients</short>
+        <long>Specifies the higher limit of the IP space to use for DHCP leases.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>IP més alta en el rang per servir als clients DHCP</short>
+        <long>Especifica el límit superior de l&apos;espai IP per fer servir en prèstecs DHCP.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Nejvyšší IP v rozsahu, který nabízet klientům DHCP</short>
+        <long>Určuje horní limit rozsahu IP, který používat pro pronájmy DHCP.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Höchste IP-Adresse, die für DHCP Clients zur Verfügung gestellt wird.</short>
+        <long>Legt das obere Limit für den IP-Bereich fest, der für DHCP Leases benutzt werden kann.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Highest IP in the range to serve to DHCP clients</short>
+        <long>Specifies the higher limit of the IP space to use for DHCP leases.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Highest IP in the range to serve to DHCP clients</short>
+        <long>Specifies the higher limit of the IP space to use for DHCP leases.</long>
+      </locale>
+
+      <locale name="es">
+        <short>IP más alta en el rango para servir a los clientes DHCP</short>
+        <long>Especifica el límite superior del espacio IPs a usar para las concesiones DHCP.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Plus grande adresse IP de l&apos;intervalle pour les clients DHCP</short>
+        <long>Spécifier la limite haute de l&apos;espace d&apos;adressage IP à utiliser pour DHCP.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A DHCP kliensek kiszolgálására használt IP tartomány legfelső eleme</short>
+        <long>Megadja a DHCP-vel kiosztható IP tartomány felső határát.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>DHCP クライアントに貸し出す IP レンジの上限</short>
+        <long>DHCP の貸し出しに使用する IP 空間の上限値を指定します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Hoogste IP-adres om uit te delen via DHCP</short>
+        <long>Bepaald de bovengrens van de IP adressen om uit te delen via  DHCP.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Maior IP no intervalo a servir a clientes DHCP</short>
+        <long>Especifica o limite superior do espaço IP a utilizar para alocações por DHCP.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>O IP mais alto no limite para servir a clientes DHCP</short>
+        <long>Especifica o limite superior do espaço de IPs a usar para requisições DHCP.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>DHCP istemcilerine verilecek en yüksek IP nuamrası</short>
+        <long>DHCP ile kullanılacak IP atama aralığının üst sınırını belirler.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Địa chỉ IP cao nhất sẽ cung cấp cho máy khách DHCP</short>
+        <long>Xác định giới hạn trên của khoảng IP sẽ dùng cho DHCP.</long>
+      </locale>
+    </schema>    
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/dhcp/nameserver</key>
+      <applyto>/apps/firestarter/firewall/dhcp/nameserver</applyto>
+      <owner>Firestarter</owner>
+      <type>string</type>
+      <default>&lt;dynamic&gt;</default>
+      <locale name="C">
+        <short>Nameserver DHCP clients should use</short>
+        <long>The nameserver clients should use. You can specify multiple nameserver in a space separated list. A value of &lt;dynamic&gt; causes the nameservers to be determined at run time.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Servidor de noms que haurien de fer servir els clients DHCP</short>
+        
+      </locale>
+
+      <locale name="cs">
+        <short>Nameserver, který mají používat klienti DHCP</short>
+        
+      </locale>
+
+      <locale name="de">
+        <short>Nameserver für DHCP Clients</short>
+        
+      </locale>
+
+      <locale name="en_CA">
+        <short>Nameserver DHCP clients should use</short>
+        
+      </locale>
+
+      <locale name="en_GB">
+        <short>Nameserver DHCP clients should use</short>
+        
+      </locale>
+
+      <locale name="es">
+        <short>Servidor de nombres que los clientes DHCP deben usar</short>
+        
+      </locale>
+
+      <locale name="fr">
+        <short>Serveur de nom DHCP que les client doivent utiliser</short>
+        
+      </locale>
+
+      <locale name="hu">
+        <short>A DHCP kliensek által használandó névkiszolgáló</short>
+        
+      </locale>
+
+      <locale name="ja">
+        <short>使用する DHCP クライアントのネームサーバ</short>
+        
+      </locale>
+
+      <locale name="nl">
+        <short>De &apos;nameservers&apos; die via DHCP moet worden toegewezen</short>
+        
+      </locale>
+
+      <locale name="pt">
+        <short>Servidor de nomes que os clientes DHCP deverão utilizar</short>
+        
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Servidor de nomes que os clientes DHCP devem usar</short>
+        
+      </locale>
+
+      <locale name="tr">
+        <short>DHCP istemcilerinin kullanacağı isim sunucusu</short>
+        
+      </locale>
+
+      <locale name="vi">
+        <short>Máy chủ tên mà máy khách DHCP cần dùng</short>
+        
+      </locale>
+    </schema>    
+    
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/deny_packets</key>
+      <applyto>/apps/firestarter/firewall/deny_packets</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Deny packets</short>
+        <long>Drop denied packets without sending an error packet back.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Rebutja paquets</short>
+        <long>Elimina els paquets rebutjats sense enviar un paquet d&apos;error de retorn.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Odmítnout pakety</short>
+        <long>Zahodit odmítnuté pakety bez odeslání paketu s chybou zpět.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Pakete abweisen</short>
+        <long>Abgewiesene Pakete verwerfen, ohne ein Fehlerpaket zurück zu schicken.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Deny packets</short>
+        <long>Drop denied packets without sending an error packet back.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Deny packets</short>
+        <long>Drop denied packets without sending an error packet back.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Denegar paquetes</short>
+        <long>Usa drop en los paquetes denegados sin enviar un paquete de error de respuesta.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Refuser des paquets</short>
+        <long>Jeter les paquets refusés sans renvoyer de paquet d&apos;erreur.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Csomagok tiltása</short>
+        <long>Visszautasított csomagok eldobása hibajelző csomag visszaküldése nélkül.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>パケットの拒否</short>
+        <long>エラー・パケットを戻すことなく拒否します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Pakketten ontkennen</short>
+        <long>Ontkende berichten negeren zonder een foutmelding terug te sturen.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Negar pacotes</short>
+        <long>Ignorar pacotes negados sem responder com um pacote de erro.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Negar pacotes</short>
+        <long>Descartar pacotes sem enviar de volta um pacote de erro.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Blloko paketat</short>
+        
+      </locale>
+
+      <locale name="tr">
+        <short>Paketleri engelle</short>
+        <long>Engellenen paketler için geri hata paketi gönderme.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Không cho phép các gói</short>
+        <long>Tự động xóa bỏ các gói bị cấm mà không thông báo lỗi trở lại máy gửi.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/block_external_broadcast</key>
+      <applyto>/apps/firestarter/firewall/block_external_broadcast</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>true</default>
+      <locale name="C">
+        <short>Block broadcasts from external network</short>
+        <long>Block broadcasts from external network.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Bloca les difusions de xarxes externes</short>
+        <long>Bloca les difusions de xarxes externes.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Blokovat broadcasty z externí sítě</short>
+        <long>Blokovat broadcasty z externí sítě.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Broadcasts des externen Netzwerks blockieren</short>
+        <long>Broadcasts des externen Netzwerks blockieren.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Block broadcasts from external network</short>
+        <long>Block broadcasts from external network.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Bloquear tráfico de difusión desde la red externa</short>
+        <long>Bloquear tráfico de difusión desde la red externa.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Bloquer le trafic broadcast du réseau externe</short>
+        <long>Bloquer le trafic broadcast du réseau externe.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Broadcast forgalom blokkolása külső hálózatból</short>
+        <long>Broadcast forgalom blokkolása külső hálózatból.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>外部のネットワークからブロードキャストをブロックする</short>
+        <long>外部のネットワークからのブロードキャストをブロックします。</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Khóa các broadcasts từ mạng bên ngoài</short>
+        <long>Khóa các broadcasts từ mạng bên ngoài.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/block_internal_broadcast</key>
+      <applyto>/apps/firestarter/firewall/block_internal_broadcast</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Block broadcasts from internal network</short>
+        <long>Block broadcasts from internal network.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Bloca les difusions de xarxes internes</short>
+        <long>Bloca les difusions de xarxes internes.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Blokovat broadcasty z interní sítě</short>
+        <long>Blokovat broadcasty z interní sítě.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Broadcasts des internen Netzwerks blockieren</short>
+        <long>Broadcasts des internen Netzwerks blockieren.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Block broadcasts from internal network</short>
+        <long>Block broadcasts from internal network.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Bloquear tráfico de difusión desde la red interna</short>
+        <long>Bloquear tráfico de difusión desde la red interna.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Bloquer le trafic broadcast du réseau interne</short>
+        <long>Bloquer le trafic broadcast du réseau interne.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Broadcast forgalom blokkolása belső hálózatból</short>
+        <long>Broadcast forgalom blokkolása belső hálózatból.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>内部のネットワークからブロードキャストをブロックする</short>
+        <long>内部のネットワークからのブロードキャストをブロックします。</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Khóa các broadcasts từ mạng bên trong</short>
+        <long>Khóa các broadcasts từ mạng bên trong.</long>
+      </locale>
+    </schema>
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/block_non_routables</key>
+      <applyto>/apps/firestarter/firewall/block_non_routables</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Block traffic from reserved address space on the public interface</short>
+        <long>Block potentially spoofed traffic claiming to come from IANA reserved address space on the external interface.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Blokovat provoz z rezervovaného prostoru adres na veřejném rozhraní</short>
+        <long>Blokovat potenciálně podvodný provoz, který prý přichází z prostoru adres rezervovaných IANA na externím rozhraní.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Verkehr·von·reserviertem·Adressraum·an·öffentlichen·Schnittstellen·blockieren</short>
+        <long>Potentiell gefälschten Verkehr der vorgibt , aus IANA-reserviertem Adressraum zu kommen, an der externen Schnittstelle blockieren.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Block traffic from reserved address space on the public interface</short>
+        <long>Block potentially spoofed traffic claiming to come from IANA reserved address space on the external interface.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Bloquear tráfico proveniente de un espacio de direcciones reservado en el interfaz público</short>
+        <long>Bloquear tráfico potencialmente falsificado que pretende venir desde un espacio de direcciones reservado por la IANA en el interfaz externo.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Bloquer le trafic de l&apos;espace d&apos;adresses réservées sur l&apos;interface publique</short>
+        <long>Bloquer le trafic potentiellement usurpé soi-disant provenant de l espace d&apos;adresses réservé IANA sur une interface externe.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>A fenntartott címtérből érkező forgalom blokkolása a nyilvános csatolón</short>
+        <long>Potenciálisan hamisított, az IANA fenntartott címtérből érkező forgalom blokkolása a külső csatolón.</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/restrictive_outbound</key>
+      <applyto>/apps/firestarter/firewall/restrictive_outbound</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Restrictive outbound policy mode</short>
+        <long>Restrict outbound traffic by default, only allowing whitelisted outgoing connections.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Mode de política de sortida restrictiva</short>
+        <long>Restringeix el tràfic de sortida, només permet les connexions de sortida de la llista blanca.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Režim omezující odchozí strategie</short>
+        <long>Implicitně omezit odchozí provoz, povolit jen explicitně povolená odchozí spojení.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Restriktiver Richtlinienmodus für ausgehenden Verkehr</short>
+        <long>Ausgehenden Verkehr per Voreinstellung unterbinden. Nur speziell freigegebene Verbindungen nach außen erlauben.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Restrictive outbound policy mode</short>
+        <long>Restrict outbound traffic by default, only allowing whitelisted outgoing connections.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Restrictive outbound policy mode</short>
+        <long>Restrict outbound traffic by default, only allowing whitelisted outgoing connections.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Normativa de restricción de tráfico saliente</short>
+        <long>Restringir el tráfico saliente por omisión, sólo permitir conexiones salientes en la lista blanca.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Restreindre la politique des sorties</short>
+        <long>Restreindre le trafic de sortie par défaut, en n&apos;autorisant que des connexions sortantes de la liste blanche.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>Korlátozó kimeneti szabályozás mód</short>
+        <long>Kimenő forgalom korlátozása alapértelmezés szerint, csak fehérlistás kimenő forgalom engedélyezése.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>送信ポリシーの制限モード</short>
+        <long>デフォルトで送信トラフィックを禁止し、whitelist に記述した送信接続のみ許可します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Manier van het beperken van uitgaand verkeer</short>
+        <long>Standaard al het uitgaande verkeer blokkeren, en alleen uitgaand verkeer waarvoor toestemming is verleend doorlaten.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Modo de política de saída restritiva</short>
+        <long>Restringe o tráfego de saída por padrão, permitindo apenas conexões de saída na lista branca.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>Dışarı doğru bağlantılar için kısıtlı kip</short>
+        <long>Dışarı doğru trafiği, izin verilen durumlar dışında engelle.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Chế độ của chính sách hạn chế thông tin ra</short>
+        <long>Hạn chế thông tin đi ra theo mặc định, chỉ cho phép các kết nối ra trong danh sách trắng (whitelisted).</long>
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/tos/enable</key>
+      <applyto>/apps/firestarter/firewall/tos/enable</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable the configuration of tos</short>
+        <long>Apply the settings of Type of Service, as configured in the wizard.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Habilita la configuració de tipus de servei</short>
+        <long>Aplica els paràmetres de tipus de servei, com es va configurar en l&apos;assistent.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Povolit nastavení TOS</short>
+        <long>Použít nastavení typu služby zvolená v průvodci.</long>
+      </locale>
+
+      <locale name="de">
+        <short>Konfiguration der Diensttypen zulassen</short>
+        <long>Anwenden der Einstellungen für Diensttyp-Filter wie im Assistent konfiguriert.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ενεργοποίηση ρυθμίσεων tos</short>
+        <long>Εφαρμογή των ρυθμίσεων της Type of Service,, όπως ρυθμίστηκε από τον μάγο.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Enable the configuration of tos</short>
+        <long>Apply the settings of Type of Service, as configured in the wizard.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable the configuration of tos</short>
+        <long>Apply the settings of Type of Service, as configured in the wizard.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar la configuración del TdS</short>
+        <long>Aplicar los ajustes del Tipo de Servicio, como se configuraron en el asistente.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Activer la configuration du Type de Service (ToS)</short>
+        <long>Appliquer les réglages de Type de Service, comme configuré avec l&apos;assistant.</long>
+      </locale>
+
+      <locale name="hr">
+        
+        <long>Primjeni postavke o tipu usluga, kao što su podešene u čarobnjaku.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>ToS konfigurációjának engedélyezése</short>
+        <long>A varázslóban megadott szolgáltatások típusa (ToS) beállítások alkalmazása.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Abilita la configurazione del TOS</short>
+        <long>Applica le impostazioni del «Tipo di Servizio» come stabilito nella configurazione guidata.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ToS 設定を有効にする</short>
+        <long>ウィザードで設定したサービス種を適用します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Geef de mogelijkheid ToS te configureren</short>
+        <long>Gebruik de ToS instellingen zoals opgegeven in de assistent.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>tos ਰੂਪ ਨੂੰ ਯੋਗ ਕਰੋ</short>
+        <long>ਉਪਯੋਗ ਦੀਆਂ ਕਿਸਮਾਂ ਦੀਆਂ ਵਿਵਸਥਾਂਵਾਂ ਜਿਸ ਤਰਾਂ ਤਖਤੀ ਵਿਚ ਦਿਤੀਆਂ ਹਨ ਲਾਗੂ ਕਰੋ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Włączona konfiguracja ToS</short>
+        <long>Stosowanie ustawień ToS (rodzaju usługi) skonfigurowanych w druidzie.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar a configuração de tds</short>
+        <long>Aplicar as definições de Tipo de Serviço, tal como configuradas pelo assistente.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilitar a configuração de tds</short>
+        <long>Aplicar as definições de Tipo de Serviço, tal como configuradas pelo assistente.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Включить конфигурацию TOS</short>
+        
+      </locale>
+
+      <locale name="sk">
+        <short>Povoliť nastavenie ToS</short>
+        <long>Použiť nastavenie typu služieb podľa sprievodcu.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Aktivo konfigurimin e tos</short>
+        <long>Apliko rregullimet e Llojit të Shërbimit, sikurse konfiguruar gjatë wizard.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Омогући подешавања типа сервиса</short>
+        <long>Примени подешавања типа сервиса, као што је назначено у чаробњаку.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Omogući podešavanja tipa servisa</short>
+        <long>Primeni podešavanja tipa servisa, kao što je naznačeno u čarobnjaku.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera konfigurationen av tos</short>
+        <long>Verkställ inställningarna i Typ av tjänst så som de är konfigurerade i guiden.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>ToS yapılandırmasını etkinleştir</short>
+        <long>Sihirbaz ile yapılandırılan Servis Tipi (ToS) ayarlarını uygula.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Bật cấu hình của tos</short>
+        <long>Áp dụng các thiết lập Loại Dịch Vụ, như đã cấu hình trong đồ thuật.</long>
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用 TOS 組態</short>
+        
+      </locale>
+    </schema>
+
+    <schema>
+      <key>/schemas/apps/firestarter/firewall/icmp/enable</key>
+      <applyto>/apps/firestarter/firewall/icmp/enable</applyto>
+      <owner>Firestarter</owner>
+      <type>bool</type>
+      <default>false</default>
+      <locale name="C">
+        <short>Enable the configuration of ICMP</short>
+        <long>Apply the ICMP settings, as configured in the wizard.</long>
+      </locale>
+
+      <locale name="ca">
+        <short>Habilita la configuració d&apos;ICMP</short>
+        <long>Aplica els paràmetres d&apos;ICMP, com es va configurar en l&apos;assistent.</long>
+      </locale>
+
+      <locale name="cs">
+        <short>Povolit nastavení ICMP</short>
+        <long>Použít nastavení ICMP zvolená v průvodci.</long>
+      </locale>
+
+      <locale name="de">
+        <short>ICMP-Konfiguration zulassen</short>
+        <long>Anwenden der ICMP-Einstellungen wie im Assistent konfiguriert.</long>
+      </locale>
+
+      <locale name="el">
+        <short>Ενεργοποίηση ρυθμίσεων  ICMP</short>
+        <long>Εφαρμογή των ρυθμίσεων ICMP, όπως ρυθμίστηκαν από τον μάγο.</long>
+      </locale>
+
+      <locale name="en_CA">
+        <short>Enable the configuration of ICMP</short>
+        <long>Apply the ICMP settings, as configured in the wizard.</long>
+      </locale>
+
+      <locale name="en_GB">
+        <short>Enable the configuration of ICMP</short>
+        <long>Apply the ICMP settings, as configured in the wizard.</long>
+      </locale>
+
+      <locale name="es">
+        <short>Activar la configuración de ICMP</short>
+        <long>Aplicar los ajustes ICMP, como se configuraron en el asistente.</long>
+      </locale>
+
+      <locale name="fr">
+        <short>Activer la configuration ICMP</short>
+        <long>Appliquer les réglages ICMP, comme configuré avec l&apos;assistant.</long>
+      </locale>
+
+      <locale name="hr">
+        
+        <long>Primjeni ICMP postavke, kao što su podešene u čarobnjaku.</long>
+      </locale>
+
+      <locale name="hu">
+        <short>ICMP konfigurációjának engedélyezése</short>
+        <long>A varázslóban megadott ICMP beállítások alkalmazása.</long>
+      </locale>
+
+      <locale name="it">
+        <short>Abilita la configurazione di ICMP</short>
+        <long>Applica le impostazioni ICMP come stabilito nella configurazione guidata.</long>
+      </locale>
+
+      <locale name="ja">
+        <short>ICMP フィルタリング設定を有効にする</short>
+        <long>ウィザードで設定した ICMP フィルタリングを適用します。</long>
+      </locale>
+
+      <locale name="nl">
+        <short>Geef de mogelijkheid ICMP te configureren</short>
+        <long>Gebruik de ICMP instellingen zoals opgegeven in de assistent.</long>
+      </locale>
+
+      <locale name="pa">
+        <short>ICMP ਸੰਰਚਨਾ ਨੂੰ ਯੋਗ ਕਰੋ</short>
+        <long>ICMP ਵਿਵਸਥਾਂਵਾਂ ਜਿਸ ਤਰਾਂ ਤਖਤੀ ਵਿਚ ਦਿਤੀਆਂ ਹਨ ਲਾਗੂ ਕਰੋ।</long>
+      </locale>
+
+      <locale name="pl">
+        <short>Włączona konfiguracja ICMP</short>
+        <long>Stosowanie ustawień ICMP skonfigurowanych w druidzie.</long>
+      </locale>
+
+      <locale name="pt">
+        <short>Activar a configuração de ICMP</short>
+        <long>Aplicar as definições ICMP, tal como configuradas pelo assistente.</long>
+      </locale>
+
+      <locale name="pt_BR">
+        <short>Habilitar a configuração de ICMP</short>
+        <long>Aplicar as definições ICMP, tal como configuradas pelo assistente.</long>
+      </locale>
+
+      <locale name="ru">
+        <short>Включить конфигурацию ICMP</short>
+        
+      </locale>
+
+      <locale name="sk">
+        <short>Povoliť nastavenie ICMP</short>
+        <long>Použiť nastavenie ICMP podľa sprievodcu.</long>
+      </locale>
+
+      <locale name="sq">
+        <short>Aktivo konfigurimin e ICMP</short>
+        <long>Apliko rregullimet ICMP, sikurse konfiguruar gjatë wizard.</long>
+      </locale>
+
+      <locale name="sr">
+        <short>Омогући подешавања ICMP</short>
+        <long>Примени ICMP поставке, као што је назначено у чаробњаку.</long>
+      </locale>
+
+      <locale name="sr@Latn">
+        <short>Omogući podešavanja ICMP</short>
+        <long>Primeni ICMP postavke, kao što je naznačeno u čarobnjaku.</long>
+      </locale>
+
+      <locale name="sv">
+        <short>Aktivera konfigurationen av ICMP</short>
+        <long>Verkställ ICMP-inställningarna som är konfigurerade i guiden.</long>
+      </locale>
+
+      <locale name="tr">
+        <short>ICMP yapılandırmasını etkinleştir</short>
+        <long>Sihirbaz ile yapılandırılan ICMP ayarlarını uygula.</long>
+      </locale>
+
+      <locale name="vi">
+        <short>Bật cấu hình của ICMP</short>
+        <long>Áp dụng các thiết lập ICMP, như đã cấu hình trong đồ thuật.</long>
+      </locale>
+
+      <locale name="zh_CN">
+        <short>启用 ICMP 配置</short>
+        
+      </locale>
+
+      <locale name="zh_TW">
+        <short>啟用 ICMP 組態</short>
+        <long>套用在設定精靈中所選定的 ICMP 設定。</long>
+      </locale>
+    </schema>
+
+  </schemalist>
+</gconfschemafile>
